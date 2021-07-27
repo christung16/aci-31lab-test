@@ -29,3 +29,8 @@ provider "fmc" {
   fmc_insecure_skip_verify = true
 }
 
+resource "aci_tenant" "this" {
+  description = var.tenant.description
+  name = var.tenant.name
+}
+
