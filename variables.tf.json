@@ -1,0 +1,19 @@
+{
+  "variable": {
+    "user": {
+      "description" : "Login information",
+      "type"        : "map(any)",
+      "sensitive" : "true"
+    },
+
+    "vcenter_user": {
+      "type" : "map(any)",
+      "sensitive" : "true"
+    },
+
+    "fmc_user": {
+      "type" : "map(any)",
+      "sensitive" : "false"
+    }
+  }
+}
